@@ -4,15 +4,24 @@
     <style media="screen">
     body{
       margin 0;
-      border: 10px solid red;
+/*      border: 10px solid red;*/
     }
     img {
       max-width: 100%;
       vertical-align: top;
     }
+        img#responsive{
+            display: none;
+        }
+        @media screen and (max-width: 768px){
+            img#responsive{
+                display: block;
+            }
+        }
     </style>
   </head>
   <body>
+  <img src="invie-responsive_9eaee446-2d8d-4cfb-92e1-c4038311af4a.png" alt="">
   <img src="header.jpg" alt="">
   <img src="hero.jpg" alt="">
   <img src="acustica.jpg" alt="Acustica">
